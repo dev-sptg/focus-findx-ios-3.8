@@ -41,10 +41,6 @@
 		D30179C81BCD78E2009AD388 /* SCSiriWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = D30179C71BCD78E2009AD388 /* SCSiriWaveformView.m */; };
 		D30AEEBB1DE4CB1B0096A2E7 /* FileManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30AEEBA1DE4CB1B0096A2E7 /* FileManagerExtensions.swift */; };
 		D30DF93E1DC1634F0064736C /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30DF93D1DC1634F0064736C /* Toast.swift */; };
-		D32817221BD0689800185845 /* disconnect-advertising.json in Resources */ = {isa = PBXBuildFile; fileRef = D328171E1BD0689800185845 /* disconnect-advertising.json */; };
-		D32817231BD0689800185845 /* disconnect-analytics.json in Resources */ = {isa = PBXBuildFile; fileRef = D328171F1BD0689800185845 /* disconnect-analytics.json */; };
-		D32817241BD0689800185845 /* disconnect-content.json in Resources */ = {isa = PBXBuildFile; fileRef = D32817201BD0689800185845 /* disconnect-content.json */; };
-		D32817251BD0689800185845 /* disconnect-social.json in Resources */ = {isa = PBXBuildFile; fileRef = D32817211BD0689800185845 /* disconnect-social.json */; };
 		D32F71D31BCEF67C006D44FC /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32F71D21BCEF67C006D44FC /* UIViewExtensions.swift */; };
 		D33A1AB11BC48FAC0003D929 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A1AB01BC48FAC0003D929 /* SettingsViewController.swift */; };
 		D33E9B241E1D93DD00A39A44 /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33E9B231E1D93DD00A39A44 /* RequestHandler.swift */; };
@@ -74,7 +70,6 @@
 		D3AAC2911EAE9146005B7E8C /* AutocompleteTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AAC28C1EAE8F5A005B7E8C /* AutocompleteTextField.framework */; };
 		D3B3232D1BD16A0F00B0EEE4 /* gpl.html in Resources */ = {isa = PBXBuildFile; fileRef = D3B3232B1BD16A0F00B0EEE4 /* gpl.html */; };
 		D3B3232E1BD16A0F00B0EEE4 /* licenses.html in Resources */ = {isa = PBXBuildFile; fileRef = D3B3232C1BD16A0F00B0EEE4 /* licenses.html */; };
-		D3B323521BD1A7EE00B0EEE4 /* web-fonts.json in Resources */ = {isa = PBXBuildFile; fileRef = D3B323511BD1A7EE00B0EEE4 /* web-fonts.json */; };
 		D3BBC9ED1D7F81CB00D1751B /* enabled-detector.json in Resources */ = {isa = PBXBuildFile; fileRef = D3BBC9EC1D7F81CB00D1751B /* enabled-detector.json */; };
 		D3BFCB3F1BD14F5900AD22D1 /* LocalWebServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BFCB3E1BD14F5900AD22D1 /* LocalWebServer.swift */; };
 		D3BFCB511BD1559300AD22D1 /* AboutContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BFCB501BD1559300AD22D1 /* AboutContentViewController.swift */; };
@@ -89,11 +84,6 @@
 		D3E251FB1DAF0668005918DC /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E251FA1DAF0668005918DC /* AppInfo.swift */; };
 		D3E2C8EA1D9F0E6200DEBE3D /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2C8E91D9F0E6200DEBE3D /* BrowserViewController.swift */; };
 		D3E2C8FA1D9F170200DEBE3D /* LocalContentBlocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2C8F91D9F170200DEBE3D /* LocalContentBlocker.swift */; };
-		D3E2C8FB1D9F17AC00DEBE3D /* disconnect-advertising.json in Resources */ = {isa = PBXBuildFile; fileRef = D328171E1BD0689800185845 /* disconnect-advertising.json */; };
-		D3E2C8FC1D9F17AC00DEBE3D /* disconnect-analytics.json in Resources */ = {isa = PBXBuildFile; fileRef = D328171F1BD0689800185845 /* disconnect-analytics.json */; };
-		D3E2C8FD1D9F17AC00DEBE3D /* disconnect-content.json in Resources */ = {isa = PBXBuildFile; fileRef = D32817201BD0689800185845 /* disconnect-content.json */; };
-		D3E2C8FE1D9F17AC00DEBE3D /* disconnect-social.json in Resources */ = {isa = PBXBuildFile; fileRef = D32817211BD0689800185845 /* disconnect-social.json */; };
-		D3E2C8FF1D9F17AC00DEBE3D /* web-fonts.json in Resources */ = {isa = PBXBuildFile; fileRef = D3B323511BD1A7EE00B0EEE4 /* web-fonts.json */; };
 		D3E2C9611DA2F7C600DEBE3D /* URLBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2C9601DA2F7C600DEBE3D /* URLBar.swift */; };
 		D3E2C9691DA3024800DEBE3D /* InsetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2C9681DA3024800DEBE3D /* InsetButton.swift */; };
 		D3E2C96B1DA3069000DEBE3D /* URIFixup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2C96A1DA3069000DEBE3D /* URIFixup.swift */; };
@@ -192,6 +182,12 @@
 		0BC928CD1E366A6E004AC581 /* AsianLocaleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsianLocaleTest.swift; sourceTree = "<group>"; };
 		1D051AC1857A0EEEBB833D15 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		29B90C056305836CB297FF79 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		2F83E8801F7413CE0099585D /* disconnect-analytics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "disconnect-analytics.json"; sourceTree = "<group>"; };
+		2F83E8811F7413CE0099585D /* disconnect-social.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "disconnect-social.json"; sourceTree = "<group>"; };
+		2F83E8821F7413CE0099585D /* disconnect-content.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "disconnect-content.json"; sourceTree = "<group>"; };
+		2F83E8831F7413CE0099585D /* web-fonts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "web-fonts.json"; sourceTree = "<group>"; };
+		2F83E8841F7413CE0099585D /* disconnect-advertising.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "disconnect-advertising.json"; sourceTree = "<group>"; };
+		2F83E8851F7413CF0099585D /* enabled-detector.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "enabled-detector.json"; sourceTree = "<group>"; };
 		427B752EF11959F9C38B12D6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4F582F7A1F44A10F006C744B /* OpenInFocusTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenInFocusTest.swift; sourceTree = "<group>"; };
 		6616A36E1BD17EFA00C7E493 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
@@ -290,10 +286,6 @@
 		D30179C71BCD78E2009AD388 /* SCSiriWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCSiriWaveformView.m; path = SCSiriWaveformView/SCSiriWaveformView/SCSiriWaveformView.m; sourceTree = "<group>"; };
 		D30AEEBA1DE4CB1B0096A2E7 /* FileManagerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerExtensions.swift; sourceTree = "<group>"; };
 		D30DF93D1DC1634F0064736C /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
-		D328171E1BD0689800185845 /* disconnect-advertising.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "disconnect-advertising.json"; path = "Lists/disconnect-advertising.json"; sourceTree = SOURCE_ROOT; };
-		D328171F1BD0689800185845 /* disconnect-analytics.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "disconnect-analytics.json"; path = "Lists/disconnect-analytics.json"; sourceTree = SOURCE_ROOT; };
-		D32817201BD0689800185845 /* disconnect-content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "disconnect-content.json"; path = "Lists/disconnect-content.json"; sourceTree = SOURCE_ROOT; };
-		D32817211BD0689800185845 /* disconnect-social.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "disconnect-social.json"; path = "Lists/disconnect-social.json"; sourceTree = SOURCE_ROOT; };
 		D32F71D21BCEF67C006D44FC /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		D33A1AB01BC48FAC0003D929 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D33E9B231E1D93DD00A39A44 /* RequestHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
@@ -321,7 +313,6 @@
 		D3AAC28C1EAE8F5A005B7E8C /* AutocompleteTextField.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutocompleteTextField.framework; path = Carthage/Build/iOS/AutocompleteTextField.framework; sourceTree = "<group>"; };
 		D3B3232B1BD16A0F00B0EEE4 /* gpl.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = gpl.html; sourceTree = "<group>"; };
 		D3B3232C1BD16A0F00B0EEE4 /* licenses.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = licenses.html; sourceTree = "<group>"; };
-		D3B323511BD1A7EE00B0EEE4 /* web-fonts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "web-fonts.json"; path = "Lists/web-fonts.json"; sourceTree = SOURCE_ROOT; };
 		D3BBC9EC1D7F81CB00D1751B /* enabled-detector.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "enabled-detector.json"; sourceTree = "<group>"; };
 		D3BFCB3E1BD14F5900AD22D1 /* LocalWebServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalWebServer.swift; sourceTree = "<group>"; };
 		D3BFCB501BD1559300AD22D1 /* AboutContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutContentViewController.swift; sourceTree = "<group>"; };
@@ -750,11 +741,12 @@
 		D3E2C9001D9F17C600DEBE3D /* Blocklists */ = {
 			isa = PBXGroup;
 			children = (
-				D328171E1BD0689800185845 /* disconnect-advertising.json */,
-				D328171F1BD0689800185845 /* disconnect-analytics.json */,
-				D32817201BD0689800185845 /* disconnect-content.json */,
-				D32817211BD0689800185845 /* disconnect-social.json */,
-				D3B323511BD1A7EE00B0EEE4 /* web-fonts.json */,
+				2F83E8841F7413CE0099585D /* disconnect-advertising.json */,
+				2F83E8801F7413CE0099585D /* disconnect-analytics.json */,
+				2F83E8821F7413CE0099585D /* disconnect-content.json */,
+				2F83E8811F7413CE0099585D /* disconnect-social.json */,
+				2F83E8851F7413CF0099585D /* enabled-detector.json */,
+				2F83E8831F7413CE0099585D /* web-fonts.json */,
 			);
 			name = Blocklists;
 			sourceTree = "<group>";
@@ -1114,7 +1106,6 @@
 				E4BF2DDE1BACE8CA00DA9D68 /* Assets.xcassets in Resources */,
 				6616A36F1BD17EFA00C7E493 /* style.css in Resources */,
 				D3C047BD1DCBD8ED00402FFB /* SearchEngines.plist in Resources */,
-				D3E2C8FE1D9F17AC00DEBE3D /* disconnect-social.json in Resources */,
 				D3B3232D1BD16A0F00B0EEE4 /* gpl.html in Resources */,
 				F84AFE751DE77FE6005C4DD1 /* LaunchScreen.png in Resources */,
 				D3DA778C1DC2C60E009C114E /* errorPage.html in Resources */,
@@ -1123,15 +1114,11 @@
 				D38EDB961DCA8A9400E28196 /* LaunchScreen.storyboard in Resources */,
 				E40AFC741DDDE96D00DA5651 /* InfoPlist.strings in Resources */,
 				D343DCC21C44356500D7EEE8 /* Localizable.strings in Resources */,
-				D3E2C8FB1D9F17AC00DEBE3D /* disconnect-advertising.json in Resources */,
 				D362D2AB1C4EAF940041980A /* rights-focus.html in Resources */,
-				D3E2C8FC1D9F17AC00DEBE3D /* disconnect-analytics.json in Resources */,
-				D3E2C8FD1D9F17AC00DEBE3D /* disconnect-content.json in Resources */,
 				D3BFCB5B1BD15CD000AD22D1 /* rights-klar.html in Resources */,
 				D3426AEF1DB846BB0016DA5A /* topdomains.txt in Resources */,
 				F84AFE771DE77FE6005C4DD1 /* LaunchScreen@3x.png in Resources */,
 				D3E54FD51DEFB25B003E1AFF /* SearchPlugins in Resources */,
-				D3E2C8FF1D9F17AC00DEBE3D /* web-fonts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1139,13 +1126,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D32817251BD0689800185845 /* disconnect-social.json in Resources */,
 				E4BC84FB1E2A862700833B45 /* InfoPlist.strings in Resources */,
-				D32817231BD0689800185845 /* disconnect-analytics.json in Resources */,
 				D3BBC9ED1D7F81CB00D1751B /* enabled-detector.json in Resources */,
-				D32817221BD0689800185845 /* disconnect-advertising.json in Resources */,
-				D32817241BD0689800185845 /* disconnect-content.json in Resources */,
-				D3B323521BD1A7EE00B0EEE4 /* web-fonts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
