@@ -25,7 +25,7 @@ struct Settings {
             case .blockOther: return false
             case .blockFonts: return false
             case .safari: return true
-            case .sendAnonymousUsageData: return AppInfo.isKlar ? false : true
+            case .sendAnonymousUsageData: return false // BMS-4
         }
     }
 

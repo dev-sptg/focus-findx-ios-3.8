@@ -1,6 +1,6 @@
 github "AliSoftware/OHHTTPStubs" "5.2.3-swift3"
 github "SnapKit/SnapKit" "3.2.0"
-github "adjust/ios_sdk" "react_native4.11.5"
+github "adjust/ios_sdk" "v4.11.5"
 github "cezheng/Fuzi" "1.0.1"
 github "mozilla-mobile/AutocompleteTextField" "a815acf9afdf03325cc9fa8bf3df9faa1394a558"
 github "mozilla-mobile/telemetry-ios" "6d2fb1e649affaba1f814e56952ec829e02080fb"
